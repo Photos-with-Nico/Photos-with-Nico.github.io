@@ -8,9 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Banner Section */
 .banner {
-  position: relative;
   height: 300px;
   background: url('assets/images/banyan_tree.jpg') no-repeat center center;
   background-size: cover;
@@ -21,75 +19,21 @@ body {
 }
 
 .banner-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
-}
-
-.banner-text {
-  max-width: 70%;
   color: white;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
 .banner h1 {
-  font-size: 2.2em;
-  margin: 0;
+  font-size: 2.5em;
 }
 
 .banner p {
   font-size: 1.2em;
-  margin-top: 10px;
-}
-
-/* Content Sections */
-.content {
-  padding: 50px 70px;
-}
-
-.content h2 {
-  text-align: center;
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.content p {
-  text-align: left;
-  font-size: 1.1em;
-  margin: 10px 0;
-}
-
-/* Photo Gallery */
-.photo-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 50px 70px;
-}
-
-.gallery-column {
-  flex: 1;
-  padding: 10px;
-}
-
-.photo-item {
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 .photo-item img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.photo-item p {
-  margin-top: 10px;
-  font-size: 1em;
 }
 
 /* Footer */
@@ -98,24 +42,4 @@ footer {
   padding: 20px;
   background-color: #003535;
   color: white;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  .banner {
-    height: 200px;
-  }
-
-  .banner-text {
-    max-width: 90%;
-  }
-
-  .photo-gallery {
-    flex-direction: column;
-  }
-
-  .gallery-column {
-    width: 100%;
-    padding: 0;
-  }
 }
