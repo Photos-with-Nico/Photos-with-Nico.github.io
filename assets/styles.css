@@ -109,3 +109,332 @@ footer {
   background-color: #003535;
   color: white;
 }
+
+/* Responsive Design */
+/* Mobile devices (360px - 414px width) */
+@media (min-width: 360px) and (max-width: 414px) {
+  .banner {
+    height: 165px;
+    padding: 10px;
+    /* Reduce padding for smaller screens */
+  }
+
+  .banner-content {
+    margin-left: 10px;
+    /* Adjust left margin */
+    margin-top: 10px;
+    /* Adjust top margin */
+  }
+
+  .banner h1 {
+    font-size: 1.1em;
+    /* Smaller font size */
+  }
+
+  .banner p {
+    font-size: 0.72em;
+    /* Smaller font size */
+  }
+
+  .contact-info {
+    bottom: 2px;
+    /* Lower the positioning to prevent overlap */
+    right: 10px;
+    /* Adjust positioning */
+    padding: 2px 4px;
+    /* Smaller padding for a more compact size */
+    font-size: 0.7em;
+    /* Smaller font size for contact text */
+    max-width: 50%;
+    /* Restrict width to prevent overlap with tagline */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Slightly transparent background to blend better */
+  }
+
+  .content {
+    padding-top: 192px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.3em;
+  }
+
+  .content p {
+    font-size: .9em;
+  }
+}
+
+/* Mobile devices (415px - 600px width) */
+@media (min-width: 415px) and (max-width: 600px) {
+  .banner {
+    height: 175px;
+    padding: 15px;
+    /* Adjust padding for larger mobile screens */
+  }
+
+  .banner-content {
+    margin-left: 15px;
+    /* Adjust left margin */
+    margin-top: 15px;
+    /* Adjust top margin */
+  }
+
+  .banner h1 {
+    font-size: 1.25em;
+    /* Adjust font size */
+  }
+
+  .banner p {
+    font-size: 0.72em;
+    /* Adjust font size */
+  }
+
+  .contact-info {
+    bottom: 5px;
+    /* Lower the positioning to prevent overlap */
+    right: 15px;
+    /* Adjust positioning */
+    padding: 2px 8px;
+    /* Adjust padding for a more compact size */
+    font-size: 0.75em;
+    /* Adjust font size for contact text */
+    max-width: 50%;
+    /* Restrict width to prevent overlap with tagline */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black background */
+  }
+
+  .content {
+    padding-top: 205px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.5em;
+  }
+
+  .content p {
+    font-size: 1em;
+  }
+}
+
+/* Tablets (601px - 962px width) */
+@media (min-width: 601px) and (max-width: 962px) {
+  .banner {
+    height: 210px;
+    padding: 20px;
+    /* Adjust padding for tablet screens */
+  }
+
+  .banner-content {
+    margin-left: 20px;
+    /* Adjust left margin */
+    margin-top: 20px;
+    /* Adjust top margin */
+  }
+
+  .banner h1 {
+    font-size: 1.6em;
+    /* Adjust font size */
+  }
+
+  .banner p {
+    font-size: 0.9em;
+    /* Adjust font size */
+  }
+
+  .contact-info {
+    bottom: 10px;
+    /* Lower the positioning slightly */
+    right: 20px;
+    /* Adjust positioning */
+    padding: 3px 6px;
+    /* Reduced padding for a more compact container */
+    font-size: 0.8em;
+    /* Adjust font size for better fit */
+    max-width: 45%;
+    /* Restrict width to avoid overlap with tagline */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black background */
+  }
+
+  .content {
+    padding: 240px 30px 30px;
+  }
+
+  .content h2 {
+    font-size: 1.7em;
+  }
+
+  .content p {
+    font-size: 1.2em;
+  }
+}
+
+/* Laptops (963px - 1279px width) */
+/* Laptops (963px - 1279px width) */
+@media (min-width: 963px) and (max-width: 1279px) {
+  .banner {
+    height: 225px;
+    padding: 20px;
+    /* Adjust padding for laptops */
+  }
+
+  .banner-content {
+    margin-left: 20px;
+    /* Adjust left margin */
+    margin-top: 20px;
+    /* Adjust top margin */
+  }
+
+  .banner h1 {
+    font-size: 1.8em;
+    /* Adjust font size */
+  }
+
+  .banner p {
+    font-size: .95em;
+    /* Adjust font size */
+  }
+
+  .contact-info {
+    bottom: 10px;
+    /* Lower positioning slightly */
+    right: 20px;
+    /* Adjust positioning */
+    padding: 4px 8px;
+    /* Reduced padding for a more compact container */
+    font-size: 0.85em;
+    /* Adjust font size for better fit */
+    max-width: 40%;
+    /* Restrict width to prevent overlap with tagline */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black background */
+  }
+
+  .content {
+    margin-top: 49px;
+    padding: 255px 40px 40px;
+  }
+
+  .content h2 {
+    font-size: 2em;
+  }
+
+  .content p {
+    font-size: 1.3em;
+  }
+}
+
+/* Desktops and Larger Laptops (1280px and up) */
+@media (min-width: 1280px) {
+  .banner {
+    height: 300px;
+    padding: 20px;
+    /* Default padding for desktops */
+  }
+
+  .banner-content {
+    margin-left: 20px;
+    /* Default left margin */
+    margin-top: 20px;
+    /* Default top margin */
+  }
+
+  .banner h1 {
+    font-size: 2.2em;
+    /* Larger font size for desktops */
+  }
+
+  .banner p {
+    font-size: 1.2em;
+    /* Larger font size for desktops */
+  }
+
+  .contact-info {
+    bottom: 10px;
+    /* Slightly lower for better alignment */
+    right: 20px;
+    /* Default positioning */
+    padding: 5px 10px;
+    /* Reduced padding for a slightly more compact look */
+    font-size: 0.9em;
+    /* Adjust font size for readability */
+    max-width: 35%;
+    /* Restrict width to ensure no overlap */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black background */
+  }
+
+  .content {
+    padding: 360px 50px 50px;
+  }
+
+  .content h2 {
+    font-size: 2em;
+  }
+
+  .content p {
+    font-size: 1.2em;
+  }
+}
+
+/* Landscape orientation for devices up to 950px wide */
+@media (max-width: 950px) and (orientation: landscape) {
+  .banner {
+    height: 95px;
+    /* Reduce height to fit better in landscape mode */
+    padding: 10px;
+    /* Adjust padding */
+  }
+
+  .banner-content {
+    justify-content: center;
+    margin-left: 0;
+    /* Center the content */
+    text-align: center;
+    /* Center the text */
+  }
+
+  .banner h1 {
+    font-size: 1.2em;
+    /* Smaller font size */
+  }
+
+  .banner p {
+    font-size: .75em;
+    /* Smaller font size */
+  }
+
+  .contact-info {
+    bottom: 2px;
+    /* Adjust positioning to be lower and more compact */
+    right: 10px;
+    /* Adjust positioning */
+    padding: 3px 5px;
+    /* Smaller padding for a more compact container */
+    font-size: 0.75em;
+    /* Smaller font size for readability */
+    max-width: 50%;
+    /* Restrict width to prevent overlap */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Semi-transparent black background */
+  }
+
+  .content {
+    padding-top: 105px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.3em;
+  }
+
+  .content p {
+    font-size: .9em;
+  }
+}
