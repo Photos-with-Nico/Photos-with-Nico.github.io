@@ -121,7 +121,7 @@ footer {
   }
 
   .banner-content {
-    margin-left: 10px;
+    margin-left: 5px;
     /* Adjust left margin */
     margin-top: 10px;
     /* Adjust top margin */
@@ -176,7 +176,7 @@ footer {
   }
 
   .banner-content {
-    margin-left: 15px;
+    margin-left: 10px;
     /* Adjust left margin */
     margin-top: 15px;
     /* Adjust top margin */
@@ -195,7 +195,7 @@ footer {
   .contact-info {
     bottom: 5px;
     /* Lower the positioning to prevent overlap */
-    right: 15px;
+    right: 10px;
     /* Adjust positioning */
     padding: 2px 8px;
     /* Adjust padding for a more compact size */
