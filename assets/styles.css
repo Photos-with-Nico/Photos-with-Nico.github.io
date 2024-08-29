@@ -238,12 +238,12 @@ footer {
   }
 
   .banner h1 {
-    font-size: 1.6em;
+    font-size: 1.8em;
     /* Adjust font size */
   }
 
   .banner p {
-    font-size: 0.9em;
+    font-size: 1em;
     /* Adjust font size */
   }
 
@@ -292,12 +292,12 @@ footer {
   }
 
   .banner h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     /* Adjust font size */
   }
 
   .banner p {
-    font-size: .95em;
+    font-size: 1em;
     /* Adjust font size */
   }
 
@@ -346,12 +346,12 @@ footer {
   }
 
   .banner h1 {
-    font-size: 2.2em;
+    font-size: 3em;
     /* Larger font size for desktops */
   }
 
   .banner p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     /* Larger font size for desktops */
   }
 
@@ -362,7 +362,7 @@ footer {
     /* Default positioning */
     padding: 5px 10px;
     /* Reduced padding for a slightly more compact look */
-    font-size: 0.9em;
+    font-size: .9em;
     /* Adjust font size for readability */
     max-width: 35%;
     /* Restrict width to ensure no overlap */
@@ -375,11 +375,11 @@ footer {
   }
 
   .content h2 {
-    font-size: 2em;
+    font-size: 2.1em;
   }
 
   .content p {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }
 
