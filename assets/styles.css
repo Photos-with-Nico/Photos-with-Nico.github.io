@@ -92,6 +92,15 @@ body {
   padding-bottom: 0px
 }
 
+/* Collapsible Photo Gallery Title */
+.photo-gallery-title {
+  font-size: 1.5em;
+  /* Default font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* Adds space below the title */
+}
+
 /* Photo Gallery Section */
 .container {
   padding: 25px 30px;
@@ -165,7 +174,13 @@ footer {
   .content p {
     font-size: .9em;
   }
+
+  .photo-gallery-title {
+    font-size: 1.2em
+    /* Smaller font size for smaller screens */
+  }
 }
+
 
 /* Mobile devices (415px - 600px width) */
 @media (min-width: 415px) and (max-width: 600px) {
@@ -220,6 +235,11 @@ footer {
   .content p {
     font-size: 1em;
   }
+
+  .photo-gallery-title {
+    font-size: 1.3em;
+    /* Slightly larger font size */
+  }
 }
 
 /* Tablets (601px - 962px width) */
@@ -272,6 +292,11 @@ footer {
 
   .content p {
     font-size: 1.2em;
+  }
+
+  .photo-gallery-title {
+    font-size: 1.4em;
+    /* Adjust font size for tablets */
   }
 }
 
@@ -327,6 +352,11 @@ footer {
   .content p {
     font-size: 1.3em;
   }
+
+  .photo-gallery-title {
+    font-size: 1.6em;
+    /* Larger font size for laptops */
+  }
 }
 
 /* Desktops and Larger Laptops (1280px and up) */
@@ -379,6 +409,11 @@ footer {
 
   .content p {
     font-size: 1.5em;
+  }
+
+  .photo-gallery-title {
+    font-size: 2em;
+    /* Even larger font size for desktops */
   }
 }
 
@@ -436,5 +471,10 @@ footer {
 
   .content p {
     font-size: .9em;
+  }
+
+  .photo-gallery-title {
+    font-size: 1.4em;
+    /* Adjust font size for landscape orientation */
   }
 }
