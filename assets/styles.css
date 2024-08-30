@@ -38,6 +38,7 @@ body {
 }
 
 .banner h1 {
+  font-weight: bold;
   font-size: 2.9em;
   margin: 0;
 }
@@ -91,11 +92,15 @@ body {
   padding-right: 25px;
   padding-bottom: 0px
 }
-
+/* About Me and Gallery Titles */
+#about h2,
+.container h2 {
+  /* Match font size for both sections */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 /* Collapsible Photo Gallery Title */
 .photo-gallery-title {
-  font-size: 1.5em;
-  /* Default font size */
   font-weight: bold;
   margin-bottom: 10px;
   /* Adds space below the title */
@@ -168,16 +173,21 @@ footer {
   }
 
   .content h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   .content p {
-    font-size: .9em;
+    font-size: 1.02em;
   }
 
   .photo-gallery-title {
-    font-size: 1.2em
+    font-size: 1.2em;
     /* Smaller font size for smaller screens */
+  }
+
+  .container h2 {
+    font-size: 1.5em;
+    /* Adjust h2 font size for smaller screens */
   }
 }
 
@@ -198,12 +208,12 @@ footer {
   }
 
   .banner h1 {
-    font-size: 1.8em;
+    font-size: 2.1em;
     /* Adjust font size */
   }
 
   .banner p {
-    font-size: 0.75em;
+    font-size: 0.9em;
     /* Adjust font size */
   }
 
@@ -237,8 +247,13 @@ footer {
   }
 
   .photo-gallery-title {
-    font-size: 1.3em;
-    /* Slightly larger font size */
+    font-size: 1.2em;
+    /* Smaller font size for smaller screens */
+  }
+
+  .container h2 {
+    font-size: 1.5em;
+    /* Adjust h2 font size for smaller screens */
   }
 }
 
@@ -258,7 +273,7 @@ footer {
   }
 
   .banner h1 {
-    font-size: 2.5em;
+    font-size: 2.6em;
     /* Adjust font size */
   }
 
@@ -295,8 +310,13 @@ footer {
   }
 
   .photo-gallery-title {
-    font-size: 1.4em;
-    /* Adjust font size for tablets */
+    font-size: 1.2em;
+    /* Smaller font size for smaller screens */
+  }
+
+  .container h2 {
+    font-size: 1.7em;
+    /* Adjust h2 font size for smaller screens */
   }
 }
 
@@ -346,16 +366,21 @@ footer {
   }
 
   .content h2 {
-    font-size: 2em;
+    font-size: 1.9em;
   }
 
   .content p {
-    font-size: 1.3em;
+    font-size: 1.25em;
   }
 
   .photo-gallery-title {
-    font-size: 1.6em;
-    /* Larger font size for laptops */
+    font-size: 1.25em;
+    /* Smaller font size for smaller screens */
+  }
+
+  .container h2 {
+    font-size: 1.9em;
+    /* Adjust h2 font size for smaller screens */
   }
 }
 
@@ -375,7 +400,7 @@ footer {
   }
 
   .banner h1 {
-    font-size: 4em;
+    font-size: 5em;
     /* Larger font size for desktops */
   }
 
@@ -391,7 +416,7 @@ footer {
     /* Default positioning */
     padding: 1px 5px;
     /* Reduced padding for a slightly more compact look */
-    font-size: .9em;
+    font-size: .85em;
     /* Adjust font size for readability */
     max-width: 35%;
     /* Restrict width to ensure no overlap */
@@ -412,8 +437,13 @@ footer {
   }
 
   .photo-gallery-title {
-    font-size: 2em;
-    /* Even larger font size for desktops */
+    font-size: 1.5em;
+    /* Smaller font size for smaller screens */
+  }
+
+  .container h2 {
+    font-size: 2.1em;
+    /* Adjust h2 font size for smaller screens */
   }
 }
 
@@ -422,20 +452,13 @@ footer {
   .banner {
     height: 100px;
     /* Reduce height to fit better in landscape mode */
-    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 30px;
     /* Adjust padding */
   }
 
-  .banner-content {
-    justify-content: center;
-    margin-left: 0;
-    /* Center the content */
-    text-align: center;
-    /* Center the text */
-  }
-
   .banner h1 {
-    font-size: 1.75em;
+    font-size: 1.8em;
     /* Smaller font size */
   }
 
@@ -474,7 +497,12 @@ footer {
   }
 
   .photo-gallery-title {
-    font-size: 1.4em;
+    font-size: 1.1em;
     /* Adjust font size for landscape orientation */
+  }
+
+  .container h2 {
+    font-size: 1.3em;
+    /* Adjust h2 font size for landscape */
   }
 }
