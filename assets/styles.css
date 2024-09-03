@@ -106,6 +106,14 @@ body {
   /* Adds space below the title */
 }
 
+/* General Styles for Photoshoot Headings */
+.photoshoot-heading {
+  font-weight: ;
+  margin-bottom: 10px;
+  /* Base font size for medium-sized screens */
+  font-size: ;
+}
+
 /* Photo Gallery Section */
 .container {
   padding: 25px 30px;
@@ -162,7 +170,7 @@ footer {
     /* Smaller font size for contact text */
     max-width: 50%;
     /* Restrict width to prevent overlap with tagline */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Slightly transparent background to blend better */
   }
 
@@ -173,20 +181,20 @@ footer {
   }
 
   .content h2 {
-    font-size: 1.5em;
+    font-size: 1.45em;
   }
 
   .content p {
-    font-size: 1.02em;
+    font-size: 1.1em;
   }
 
-  .photo-gallery-title {
-    font-size: 1.2em;
-    /* Smaller font size for smaller screens */
+  .photoshoot-heading {
+    font-size: 1.1em;
+    /* Smaller font size for small screens */
   }
 
   .container h2 {
-    font-size: 1.5em;
+    font-size: 1.45em;
     /* Adjust h2 font size for smaller screens */
   }
 }
@@ -201,9 +209,9 @@ footer {
   }
 
   .banner-content {
-    margin-left: 10px;
+    margin-left: -20px;
     /* Adjust left margin */
-    margin-top: 15px;
+    margin-top: 3px;
     /* Adjust top margin */
   }
 
@@ -220,7 +228,7 @@ footer {
   .contact-info {
     bottom: -10px;
     /* Lower the positioning to prevent overlap */
-    right: 10px;
+    right: 1px;
     /* Adjust positioning */
     padding: 1px 5px;
     /* Adjust padding for a more compact size */
@@ -228,7 +236,7 @@ footer {
     /* Adjust font size for contact text */
     max-width: 50%;
     /* Restrict width to prevent overlap with tagline */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent black background */
   }
 
@@ -243,12 +251,12 @@ footer {
   }
 
   .content p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
-  .photo-gallery-title {
-    font-size: 1.2em;
-    /* Smaller font size for smaller screens */
+  .photoshoot-heading {
+    font-size: 1.1em;
+    /* Smaller font size for small screens */
   }
 
   .container h2 {
@@ -266,9 +274,9 @@ footer {
   }
 
   .banner-content {
-    margin-left: 20px;
+    margin-left: -5px;
     /* Adjust left margin */
-    margin-top: 20px;
+    margin-top: 10px;
     /* Adjust top margin */
   }
 
@@ -285,7 +293,7 @@ footer {
   .contact-info {
     bottom: -10px;
     /* Lower the positioning slightly */
-    right: 10px;
+    right: 1px;
     /* Adjust positioning */
     padding: 2px 5px;
     /* Reduced padding for a more compact container */
@@ -293,7 +301,7 @@ footer {
     /* Adjust font size for better fit */
     max-width: 45%;
     /* Restrict width to avoid overlap with tagline */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent black background */
   }
 
@@ -309,9 +317,9 @@ footer {
     font-size: 1.2em;
   }
 
-  .photo-gallery-title {
+  .photoshoot-heading {
     font-size: 1.2em;
-    /* Smaller font size for smaller screens */
+    /* Smaller font size for small screens */
   }
 
   .container h2 {
@@ -323,15 +331,15 @@ footer {
 /* Laptops (963px - 1279px width) */
 @media (min-width: 963px) and (max-width: 1279px) {
   .banner {
-    height: 225px;
+    height: 235px;
     padding: 20px;
     /* Adjust padding for laptops */
   }
 
   .banner-content {
-    margin-left: 20px;
+    margin-left: -10px;
     /* Adjust left margin */
-    margin-top: 20px;
+    margin-top: 10px;
     /* Adjust top margin */
   }
 
@@ -348,7 +356,7 @@ footer {
   .contact-info {
     bottom: -5px;
     /* Lower positioning slightly */
-    right: 20px;
+    right: 5px;
     /* Adjust positioning */
     padding: 4px 8px;
     /* Reduced padding for a more compact container */
@@ -356,12 +364,12 @@ footer {
     /* Adjust font size for better fit */
     max-width: 40%;
     /* Restrict width to prevent overlap with tagline */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent black background */
   }
 
   .content {
-    margin-top: 49px;
+    margin-top: px;
     padding: 255px 40px 40px;
   }
 
@@ -373,9 +381,9 @@ footer {
     font-size: 1.25em;
   }
 
-  .photo-gallery-title {
+  .photoshoot-heading {
     font-size: 1.25em;
-    /* Smaller font size for smaller screens */
+    /* Adjust font size for laptops */
   }
 
   .container h2 {
@@ -387,7 +395,7 @@ footer {
 /* Desktops and Larger Laptops (1280px and up) */
 @media (min-width: 1280px) {
   .banner {
-    height: 350px;
+    height: 375px;
     padding: 20px;
     /* Default padding for desktops */
   }
@@ -410,7 +418,7 @@ footer {
   }
 
   .contact-info {
-    bottom: -5px;
+    bottom: 10px;
     /* Slightly lower for better alignment */
     right: 20px;
     /* Default positioning */
@@ -420,7 +428,7 @@ footer {
     /* Adjust font size for readability */
     max-width: 35%;
     /* Restrict width to ensure no overlap */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent black background */
   }
 
@@ -436,14 +444,14 @@ footer {
     font-size: 1.5em;
   }
 
-  .photo-gallery-title {
+  .photoshoot-heading {
     font-size: 1.5em;
-    /* Smaller font size for smaller screens */
+    /* Adjust font size for desktops and larger screens */
   }
 
   .container h2 {
     font-size: 2.1em;
-    /* Adjust h2 font size for smaller screens */
+    /* Adjust h2 font size for desktops and larger screens */
   }
 }
 
@@ -452,8 +460,8 @@ footer {
   .banner {
     height: 100px;
     /* Reduce height to fit better in landscape mode */
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 25px;
     /* Adjust padding */
   }
 
@@ -478,7 +486,7 @@ footer {
     /* Smaller font size for readability */
     max-width: 50%;
     /* Restrict width to prevent overlap */
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     /* Semi-transparent black background */
   }
 
@@ -490,17 +498,19 @@ footer {
 
   .content h2 {
     font-size: 1.3em;
+    padding-left: 20px;
   }
 
   .content p {
-    font-size: .9em;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-  .photo-gallery-title {
-    font-size: 1.1em;
-    /* Adjust font size for landscape orientation */
+  .photoshoot-heading {
+    font-size: 1em;
+    /* Adjust font size for landscape */
   }
-
   .container h2 {
     font-size: 1.3em;
     /* Adjust h2 font size for landscape */
