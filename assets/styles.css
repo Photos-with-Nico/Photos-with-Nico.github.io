@@ -123,13 +123,42 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Back to Top Button Styles */
+  .back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    /* Initially hidden */
+    background-color: #003535;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    padding: 10px;
+    /* Padding around the button */
+    border-radius: 50%;
+    /* Circular button */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Shadow for button */
+    z-index: 100;
+    /* Make sure it stays on top */
+    cursor: pointer;
+  }
+
+  .back-to-top img {
+    width: 30px;
+    height: 30px;
+    /* Adjust the size of the icon */
+  }
+
 /* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #003535;
-  color: white;
-}
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003535;
+    color: white;
+  }
 
 /* Responsive Design */
 /* Mobile devices (360px - 414px width) */
