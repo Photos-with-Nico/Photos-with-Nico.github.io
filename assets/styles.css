@@ -190,9 +190,9 @@ body {
   }
 
   .banner-content {
-    margin-left: 5px;
+    margin-left: -20px;
     /* Adjust left margin */
-    margin-top: 10px;
+    margin-top: 15px;
     /* Adjust top margin */
   }
 
@@ -209,7 +209,7 @@ body {
   .contact-info {
     bottom: -10px;
     /* Lower the positioning to prevent overlap */
-    right: 10px;
+    right: -15px;
     /* Adjust positioning */
     padding: 1px 2px;
     /* Smaller padding for a more compact size */
@@ -254,7 +254,7 @@ body {
   }
 
   .banner-content {
-    margin-left: -20px;
+    margin-left: -25px;
     /* Adjust left margin */
     margin-top: 3px;
     /* Adjust top margin */
@@ -273,7 +273,7 @@ body {
   .contact-info {
     bottom: -10px;
     /* Lower the positioning to prevent overlap */
-    right: 1px;
+    right: -10px;
     /* Adjust positioning */
     padding: 1px 5px;
     /* Adjust padding for a more compact size */
